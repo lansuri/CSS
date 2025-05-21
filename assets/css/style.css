@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    font-family:  "Amatic SC", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* ==================================header starts========================================= */
+.header{
+    background: #0f0d0d;
+    opacity: 0.5;
+    position: fixed;
+    z-index: +1;
+    width: 100%;
+    font-weight: 900px; 
+ 
+}
+.header:hover{
+    opacity: 1;
+    background: black;
+}
+.header a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-weight:700px; 
+}
+.header a:hover{
+    background:white;
+    color:black;
+}
+/* ===========================================header ends========================================== */
+
+/* ==========================================body starts=========================================== */
+.home_bg_image{
+         background-image:url(../image/pizza.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         height: 800px;
+         filter: saturate(0.5);
+         font-size: 60px;
+         color: white;
+         position: relative;
+         width:100%;
+        
+}
+.bg_img {
+    text-align: center;
+    position: relative;
+    top: 260px;
+}
+#button1{
+    background: black;
+    color: white;
+    padding: 20px 70px;
+    font-size:30px;
+}
+#button2{
+    background:black ;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    font-size:25px;
+}
+.table1>h3{
+   color:black; 
+   font-size:80px;
+   text-align: center;
+   font-weight:600px;;
+   margin-right:200px;
+   border-collapse: collapse;
+}
+/* #tr1>td>h3{
+    font-weight:700px;; */
+
+.body_menu{
+    background: #0f0d0d;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.table1{
+    background-color: white;
+    border-collapse:collapse;
+    color: #0f0d0d;
+    border: solid 1px white;
+    font-size: 30px;
+    position: relative;
+    top:45px;
+}
+#tr1{
+    background-color: #0f0d0d; 
+    color: white;
+    font-size: 50px;
+    border: 10px;
+}
+/* #tr1:hover{
+    background-color: red;
+} */
+.table1>tr>td>h3{
+    background-color: white;
+    color: black;
+}
+.red{
+    background-color: red;
+}
+.grey{
+    background-color: grey;
+}
+#tr1>.pizza:hover{
+    background: red;
+}
+#tr1>.salad:hover{
+    background: red;
+    margin-right:200px;
+}
+#tr1>.starter:hover{
+    background: red;
+}
+/* ==========================================body ends========================================= */
+/* /* ==========================about starts========================= */
+.about{
+    background: #8b5f5b;
+    color: white;
+    padding: 80px;
+    font-size: 30px;
+    position: relative;
+}
+.about1>p{
+    line-height: 50px;
+    text-transform: uppercase;
+    margin:  0px auto;
+    font-size: 25px;
+}
+.about1{
+    position: relative;
+    top: 50px;
+}
+p{
+    font-weight: 800;
+}
+
+.img{
+    height: 650px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+p{
+    font-weight: 700px;
+}
+.time{
+    color:white ;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+.time>.time2{
+    margin-left: 50px;
+    
+}
+.time1,.time2{
+    margin-top: 30px;
+}
+/*============= BODY ABOUT ENDS=============== */
+/*==============CONTACT STARTS================= */
+.img3{
+    height:60rem ;
+    display: block;
+    margin-right:50px;
+    margin-bottom: 120px;
+    filter:saturate(0.7);
+}
+.contact{
+    text-align: center;
+    background-color:#6c7a81;
+    padding: 90px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.img3{
+    width: 50%;
+}
+.contact>p,h3{
+    width: 900px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.contact>p,h1,h3{
+    margin-top:20px;
+}
+.contact>h1{
+    margin-top: 100px;
+}
+.span8{
+    background-color: black;
+    color: white;
+    padding: 5px
+}
+.span9{
+    font-size: 30px;
+}
+input{
+    padding: 25px;
+    width: 860px;
+    margin: 20px;
+    font-size: 25px;
+}
+#btn5{
+    font-size: 25px;
+    padding: 15px;
+    width: 918px;
+    margin: 20px;
+}
+/*===============CONTACT ENDS================ */
+/*=================FOOTER STARTS=============== */
+.finish{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+   
+
